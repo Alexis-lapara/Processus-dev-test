@@ -1,0 +1,7 @@
+curl -X POST http://localhost:8080/api/crack/dictionary \
+  -H "Content-Type: application/json" \
+  -d '{"hash": "81dc9bdb52d04dc20036dbd8313ed055"}'
+
+curl -X POST http://localhost:8080/api/crack/force \
+  -H "Content-Type: application/json" \
+  -d '{"hash": "81dc9bdb52d04dc20036dbd8313ed055"}'-
