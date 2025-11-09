@@ -1,0 +1,47 @@
+# ------------------------------
+# CMake and build artifacts
+# ------------------------------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+_build/
+build/
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+
+# ------------------------------
+# Crow/FetchContent dependencies
+# ------------------------------
+_deps/
+crow-subbuild/
+crow-src/
+
+# ------------------------------
+# IDE files
+# ------------------------------
+*.vscode/
+*.idea/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj*
+*.xcodeproj
+
+# ------------------------------
+# OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Logs and temporary files
+# ------------------------------
+*.log
+*.tmp
+*.swp

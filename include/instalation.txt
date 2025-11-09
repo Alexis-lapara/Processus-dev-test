@@ -1,0 +1,2 @@
+sudo apt install libssl-dev
+sudo apt install libboost-system-dev libboost-date-time-dev
